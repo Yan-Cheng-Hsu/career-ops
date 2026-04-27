@@ -16,6 +16,15 @@ batch/tracker-additions/**/*.tsv
 jds/*
 !jds/.gitkeep
 
+# Personal article digest / proof points (optional)
+article-digest.md
+
+# Personal interview prep — keep santifer's starter (story-bank.md) tracked,
+# ignore anything else the user adds (e.g., {company}-{role}.md)
+interview-prep/*.md
+!interview-prep/story-bank.md
+!interview-prep/.gitkeep
+
 # User config and customization (never auto-updated)
 config/profile.yml
 portals.yml
